@@ -18,23 +18,24 @@ type Book struct {
 }
 
 // getBookworms returns a list of bookworms.
-func getBookworms(filePath string) []Bookworm {
+// It reads the data from a JSON file specified by filePath.
+// The JSON file should contain an array of bookworm objects.
+func getBookworms(filePath string) ([]Bookworm, error) {
 	var bookworms []Bookworm
 
 	file, err := os.Open(filePath)
+
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 
 	defer file.Close()
 
-	decoder := json.NewDecoder(file)
-
-	err = decoder.Decode(&bookworms)
+	err = json.NewDecoder(file).Decode(&bookworms)
 
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 
-	return bookworms
+	return bookworms, nil
 }
