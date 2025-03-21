@@ -20,85 +20,8 @@
         "title": "Oryx and Crake"
       },
       {
-        "author": "Margaret Atwood",
-        "title": "The Handmaid's Tale"
-      },
-      {
         "author": "Charlotte Brontë",
         "title": "Jane Eyre"
-      }
-    ]
-  },
-  {
-    "name": "John",
-    "books": [
-      {
-        "author": "Margaret Atwood",
-        "title": "The Handmaid's Tale"
-      },
-      {
-        "author": "Margaret Atwood",
-        "title": "Oryx and Crake"
-      },
-      {
-        "author": "Charlotte Brontë",
-        "title": "Jane Eyre"
-      }
-    ]
-  },
-  {
-    "name": "Alice",
-    "books": [
-      {
-        "author": "Margaret Atwood",
-        "title": "The Handmaid's Tale"
-      },
-      {
-        "author": "Margaret Atwood",
-        "title": "Oryx and Crake"
-      }
-    ]
-  },
-  {
-    "name": "Bob",
-    "books": [
-      {
-        "author": "Margaret Atwood",
-        "title": "The Handmaid's Tale"
-      },
-      {
-        "author": "Margaret Atwood",
-        "title": "Oryx and Crake"
-      },
-      {
-        "author": "Charlotte Brontë",
-        "title": "Jane Eyre"
-      }
-    ]
-  },
-  {
-    "name": "Charlie",
-    "books": [
-      {
-        "author": "Margaret Atwood",
-        "title": "The Handmaid's Tale"
-      },
-      {
-        "author": "Margaret Atwood",
-        "title": "Oryx and Crake"
-      }
-    ]
-  },
-  {
-    "name": "David",
-    "books": [
-      {
-        "author": "Margaret Atwood",
-        "title": "The Handmaid's Tale"
-      },
-      {
-        "author": "Margaret Atwood",
-        "title": "Oryx and Crake"
       }
     ]
   }
